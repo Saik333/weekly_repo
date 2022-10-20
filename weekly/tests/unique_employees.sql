@@ -1,0 +1,1 @@
+select empno,count(*) from target.public.employees group by empno having count(*)>1
